@@ -85,5 +85,5 @@ When it comes to vehicle design meeting the needs of the consumer market, severa
 
 #### Contact
 
-Email: mrmileyy@gmail.com
+mrmileyy@gmail.com <br>
 [Portfolio](https://m-miley.github.io/portfolio/)
