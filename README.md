@@ -54,24 +54,24 @@ Statistic summary grouped by Lot
 ### T-Tests on Suspension Coils
 
 Using the Suspension Coil data
-1. Determind if the PSI adcross all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+1. Determind if the PSI adcross all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.<br>
 ![Screen Shot 2022-07-01 at 1 29 29 PM](https://user-images.githubusercontent.com/100544761/176951645-d7168eeb-c543-410d-88c3-c78225fb666d.png)
 
 - Note the p-value is above the significance level of .05 whcih indicates we do not have sufficient evidence to reject the null hypothesis and the two means are indeed statistically similar.
 
 2. Perform t-test to determine if the PSI for each manufacturing Lot is statistically different from the populatioin mean of 1,500 pounds per square inch.
 
-**Lot1**
+**Lot1**<br>
 ![Screen Shot 2022-07-01 at 1 40 24 PM](https://user-images.githubusercontent.com/100544761/176952894-a1f19167-70f4-496e-9ded-66fbcb54060c.png)
 
 The p-value here is exactly 1 which indicates that the sample from Lot1 is statistically similar to the population mean.  
 
-**Lot2**
+**Lot2**<br>
 ![Screen Shot 2022-07-01 at 1 40 36 PM](https://user-images.githubusercontent.com/100544761/176953168-30c889d5-b9d5-4cf9-8984-166ec7eec3e8.png)
 
 The p-value of 0.6072 indicates that there is not enough evidence to refute the null hypothesis, and the two samples are indeed statistically similar.
 
-**Lot3**
+**Lot3**<br>
 ![Screen Shot 2022-07-01 at 1 40 47 PM](https://user-images.githubusercontent.com/100544761/176953313-18097701-3d83-4f11-82cf-ab0d08a03e42.png)
 
 The p-value of 0.04168 suggests that we can refute the null hypothesis that the two are statistically similar and accept that there are differences between the two observed sample means.
