@@ -21,12 +21,32 @@ AutosRUs is producing a new prototype vehicle for market.  They are experiencing
 
 ### Linear Regression to Predict MPG
 
+![Screen Shot 2022-07-01 at 12 18 58 PM](https://user-images.githubusercontent.com/100544761/176941117-55abf35a-5dea-4179-867a-ce3a8d5afe9d.png)
+
+First 5 rows of MechaCar data
+
 ![Screen Shot 2022-07-01 at 11 06 15 AM](https://user-images.githubusercontent.com/100544761/176931908-6b9acbcf-8f6d-4b7d-a3f2-cdcdebc645b8.png)
 
 Slope coefficients / Intercept results from linear regression analysis
 
 ![Screen Shot 2022-07-01 at 11 06 30 AM](https://user-images.githubusercontent.com/100544761/176933457-2b2e2d87-4bc0-4e84-a498-dce2ba59c85b.png)
 
-- Two variables, vehicle_length and ground_clearance, with their resulting p-values show that they are statistically unlikely to be providing random amounts of variance to the linear model.  Therefore have a significant impact on miles per galon. This evidence for linear relationships in a vehicle_length and ground_clearance, together with our overall p-value below the 5% significance level, results in a non-zero slope for our model.
+- Two variables, vehicle_length and ground_clearance, with their resulting p-values show that they are statistically unlikely to be providing random amounts of variance to the linear model and therefore have a significant impact on miles per galon. This evidence for influential linear relationships, together with our overall p-value below the 5% significance level, results in a non-zero slope for our model.
 
-- Furthermore, with an overall r-squared value of 0.7149, the linear model effectively predicts mpg of MechaChar prototypes effectively.
+- Furthermore, with an overall r-squared value of 0.7149, the linear model predicts mpg of MechaChar prototypes effectively.
+
+### Summary Statistics on Suspension Coils
+
+![Screen Shot 2022-07-01 at 12 21 08 PM](https://user-images.githubusercontent.com/100544761/176941403-bc2a07d0-3a34-4055-9eee-898a146d5421.png)
+
+First 5 rows of Suspension Coil data
+
+![Screen Shot 2022-07-01 at 12 17 13 PM](https://user-images.githubusercontent.com/100544761/176941527-f216cdba-0127-44d4-a63d-817fbe0cc50b.png)
+
+PSI statistic summary
+
+![Screen Shot 2022-07-01 at 12 17 24 PM](https://user-images.githubusercontent.com/100544761/176941575-5a3e6c67-8b11-40da-b3fd-3a8ec2061466.png)
+
+Statistic summary grouped by Lot
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.  Lot3 does not meet these specificatioins.
+- The results show that Lot1 is the best performer of the group with lower statistical spread in it's distribution of measured PSI. Lot2 is still well within the acceptable limits of statistical variation and therefore acceptable as well.
